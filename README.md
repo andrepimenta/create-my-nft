@@ -4,6 +4,8 @@
 - Remove inline styles
 - Remove inline text to en.json
 - Add env for infura key
+- Move repo to metamask
+- Deploy to metamask
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
