@@ -1,6 +1,7 @@
 # Create my NFT
 
 ## TODOS
+- Add metrics
 - Remove inline styles
 - Remove inline text to en.json
 - Add env for infura key
