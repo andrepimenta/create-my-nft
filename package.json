@@ -2,6 +2,7 @@
   "name": "create-my-nft",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@rarible/ethers-ethereum": "^0.12.40-hotfix.3",
     "@rarible/protocol-ethereum-sdk": "^0.12.57",

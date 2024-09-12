@@ -74,7 +74,7 @@ function App() {
   };
 
   const getFactory = () => {
-    if (!provider?.current) return alert("No smart-contract present");
+    if (!provider?.current) return alert("No provider present");
     if (factory.current) return factory.current;
 
     // The factory we use for deploying contracts
@@ -142,7 +142,7 @@ function App() {
   }, []);
 
   const deployNFT = async (uri: string) => {
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const provider = getProvider()
 
     // The factory we use for deploying contracts
     const factory = new ethers.ContractFactory(
